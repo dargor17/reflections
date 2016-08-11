@@ -1,7 +1,10 @@
 What happens when you initialize a repository? Why do you need to do it?
+	the .git folder is created 
+	otherwise I can't commit etc.
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
+	it is the buffer between wd and repo
 
 How can you use the staging area to make sure you have one commit per logical
 change?
