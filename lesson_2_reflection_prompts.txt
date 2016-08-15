@@ -8,14 +8,22 @@ What value do you think it offers?
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+	you can check with git diff --staged to make sure exactly what you're commiting, so you know it's all related changes 
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+	1: keep an "official" backup version: with branches I can go on developing without fear that introducing bugs will leave me without a working version
+	2: branch out new features and experiments: with branches I can separate cleanly the changes due to the new feature
+	3: you can switch tasks and not mix up changes due to one or another task
 
 How do the diagrams help you visualize the branch structure?
+	you can visually see when versions of code start diverging
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+	changes are mixed together, so it's like the branches join back
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+	pro: no hassle for programmer
+	con: possible that bugs are introduced 
